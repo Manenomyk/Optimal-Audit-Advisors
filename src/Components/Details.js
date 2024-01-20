@@ -7,7 +7,7 @@ function Details() {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <img className='w-[500px] mx-auto my-3' src={account} alt='accounting images' />
             <div className='flex flex-col justify-center'>
-                <h1 className='text-[#00df9a] uppercase font-bold'>Unlocking Financial Brilliance</h1>
+                <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Unlocking Financial Brilliance</h1>
                 <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Your Trusted Partner in Numbers!</p>
                 <p>
                 We turn your financial
@@ -22,6 +22,7 @@ function Details() {
                      #NumbersNinja 
                      #AccountingExcellence"
                 </p>
+                <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Talk to us</button>
             </div>
         </div>
     </div>
