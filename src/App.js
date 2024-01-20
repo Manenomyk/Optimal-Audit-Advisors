@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Loadpage from './Components/Loadpage';
 import Details from './Components/Details';
 import Newsletter from './Components/Newsletter';
+import ServiceSection from './Components/ServiceSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Loadpage />
       <Details />
       <Newsletter />
+      <ServiceSection />
     </div>
   );
 }
