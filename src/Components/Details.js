@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import account from '../Assets/accounts.avif';
 
 function Details() {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div className='w-full bg-[#ececec] py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-            qwertyui
+            <img src={account} alt='accounting images' />
         </div>
     </div>
   )
