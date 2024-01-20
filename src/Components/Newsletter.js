@@ -16,7 +16,7 @@ function Newsletter() {
                         type='email'
                         placeholder='Enter Email' 
                     />
-                    <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Subscribe</button>
+                    <button className='bg-[#00df9a] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Subscribe</button>
                     
                     </div>
                     <p>Welcome into the team</p>
