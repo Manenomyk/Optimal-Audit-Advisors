@@ -23,12 +23,12 @@ function ServiceSection() {
                 <img className='w-[300px] mx-auto mt-1' src={finance} alt='/'  />
                 <h1 className='text-xl font-bold text-center py-5 text-black'>Audit and accounting consultancy</h1>
                 <p className='text-center'>
-                Elevate Your Finances with Our Expert Financial
-                 Accounting Services! 💼📈 Unleash the Potential
-                  of Your Numbers, Gain Clarity, and Chart a Course 
-                  to Financial Success. Let Us Be Your Partner in
-                   Precision, Where Every Dollar Finds Its Purpose.
-                    Your Financial Future Starts Here! 💰✨
+                Upraise financial clarity with our audit
+                 and accounting consultancy. Precision meets
+                  prosperity as we navigate your numbers, 
+                  ensuring compliance, and illuminating the
+                   path to financial excellence. Let's redefine 
+                   success with meticulous expertise!
                 </p>
                 <button className='bg-[#00df9a] w-[200px] rounded-md  my-6 mx-auto p-2 text-black font-bold'>Get in touch</button>
             </div>
@@ -37,16 +37,17 @@ function ServiceSection() {
                 <img className='w-[300px] mx-auto mt-1' src={finance} alt='/'  />
                 <h1 className='text-xl font-bold text-center py-5 text-black'>Business Advisory</h1>
                 <p className='text-center'>
-                Elevate Your Finances with Our Expert Financial
-                 Accounting Services! 💼📈 Unleash the Potential
-                  of Your Numbers, Gain Clarity, and Chart a Course 
-                  to Financial Success. Let Us Be Your Partner in
-                   Precision, Where Every Dollar Finds Its Purpose.
-                    Your Financial Future Starts Here! 💰✨
+                Unlock your business's full potential with our
+                 strategic expertise. Elevate your success story
+                  with tailored solutions and visionary guidance. 
+                  Let's transform challenges into triumphs together!
+                  our business advisory services illuminate the path 
+                  to prosperity, turning challenges into opportunities
+                   and strategies into triumphs.
                 </p>
-                <button className='bg-[#00df9a] w-[200px] rounded-md  my-6 mx-auto p-2 text-black font-bold'>Get in touch</button>
+                <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto p-2 text-black font-bold'>Get in touch</button>
             </div>
-            
+
         </div>
     </div>
   )
