@@ -5,6 +5,7 @@ import Loadpage from './Components/Loadpage';
 import Details from './Components/Details';
 import Newsletter from './Components/Newsletter';
 import ServiceSection from './Components/ServiceSection';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Details />
       <Newsletter />
       <ServiceSection />
+      <Footer />
     </div>
   );
 }
