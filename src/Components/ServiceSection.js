@@ -1,6 +1,7 @@
 import React from 'react';
 import finance from '../Assets/finance.svg';
-
+import booking from '../Assets/booking.svg';
+import statistics from '../Assets/statistics.svg';
 function ServiceSection() {
   return (
     <div className='w-full py-[10rem] px-4 bg-white'>
@@ -20,7 +21,7 @@ function ServiceSection() {
             </div>
 
             <div className='bg-white w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-[300px] mx-auto mt-1' src={finance} alt='/'  />
+                <img className='w-[300px] mx-auto mt-1' src={statistics} alt='/'  />
                 <h1 className='text-xl font-bold text-center py-5 text-black'>Audit and accounting consultancy</h1>
                 <p className='text-center'>
                 Upraise financial clarity with our audit
@@ -34,7 +35,7 @@ function ServiceSection() {
             </div>
 
             <div className='bg-white w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-[300px] mx-auto mt-1' src={finance} alt='/'  />
+                <img className='w-[300px] mx-auto mt-1' src={booking} alt='/'  />
                 <h1 className='text-xl font-bold text-center py-5 text-black'>Business Advisory</h1>
                 <p className='text-center'>
                 Unlock your business's full potential with our
