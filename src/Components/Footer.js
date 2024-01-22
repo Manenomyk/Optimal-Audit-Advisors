@@ -10,7 +10,7 @@ function Footer() {
              Your Success, Our Assurance Optimal Audit Advisors at Your Service!
             </p>
         </div>
-        <div className=' md:col-span-2 flex justify-between'>
+        <div className='mx-2 md:col-span-2 flex justify-between'>
             <div>
                 <h2 className='text-[#e4c131] font-bold text-lg'>Servises</h2>
                 <ul>
