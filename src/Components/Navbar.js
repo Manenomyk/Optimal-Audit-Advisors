@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
+import logo from "../Assets/logo.jpeg";
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -9,7 +10,8 @@ function Navbar() {
     }
   return (
     <div className='text-white flex justify-between items-center h-24 mx-auto max-w-[1240px] '>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit</h1>
+    <img src={logo} alt='/'  className='w-20 rounded-full mx-2'/>
+        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
         <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>
             <li className='p-4'>Company</li>
