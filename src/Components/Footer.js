@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import logo from "../Assets/logo.jpeg";
 
 function Footer() {
   return (
     <div className='max-w-[1240px] mx-auto py-10 grid md:grid-cols-3 gap-8 text-gray-300'>
         <div>
-            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
+            <div className='flex'>
+                <img src={logo} alt='/'  className='w-20 rounded-full mx-2'/>
+                <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
+            </div> 
             <p className='my-4'>
             Navigating Finances, Ensuring Compliance:
              Your Success, Our Assurance Optimal Audit Advisors at Your Service!
