@@ -13,6 +13,7 @@ function Footer() {
             Navigating Finances, Ensuring Compliance:
              Your Success, Our Assurance Optimal Audit Advisors at Your Service!
             </p>
+            
         </div>
         <div className='mx-2 md:col-span-2 flex justify-between'>
             <div>

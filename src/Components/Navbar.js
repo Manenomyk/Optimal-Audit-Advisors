@@ -13,11 +13,13 @@ function Navbar() {
     <img src={logo} alt='/'  className='w-20 rounded-full mx-2'/>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
         <ul className='hidden md:flex'>
-            <li className='p-4'>Home</li>
-            <li className='p-4'>Company</li>
-            <li className='p-4'>About</li>
-            <li className='p-4'>Servises</li>
-            <li className='p-4'>Contact</li>
+
+            <a href='/'><li className='p-4'>Home</li></a>
+            <a href='/Company'><li className='p-4'>Company</li></a>
+            <a href='/About'><li className='p-4'>About</li></a>
+            <a href='/Services'><li className='p-4'>Servises</li></a>
+            <a href='/Contact'><li className='p-4'>Contact</li></a>
+
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
             {nav ? <AiOutlineClose size={20}/> :<AiOutlineMenu size={20} /> }
@@ -26,10 +28,12 @@ function Navbar() {
         <div className={nav ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-700' : 'fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit</h1>
             <ul className='p-4'>
-                <li className='p-4 border-b border-gray-600'>Home</li>
-                <li className='p-4 border-b border-gray-600'>Company</li>
-                <li className='p-4 border-b border-gray-600'>About</li>
-                <li className='p-4 border-b border-gray-600'>Servises</li>
+                <a href='/'><li className='p-4 border-b border-gray-600'>Home</li></a>
+                <a href='/Company'><li className='p-4 border-b border-gray-600'>Company</li></a>
+                <a href='/About'><li className='p-4 border-b border-gray-600'>About</li></a>
+                <a href='/Services'><li className='p-4 border-b border-gray-600'>Servises</li></a>
+                <a href='/Contact'><li className='p-4 border-b border-gray-600'>Contact</li></a>
+
                 <li className='p-4'>Contact</li>
             </ul>
         </div>
