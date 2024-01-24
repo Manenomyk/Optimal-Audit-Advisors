@@ -18,25 +18,26 @@ function Footer() {
         <div className='mx-2 md:col-span-2 flex justify-between'>
             <div>
                 <h2 className='text-[#e4c131] font-bold text-lg'>Servises</h2>
-                <ul>
-                    <li className='py-1 text-sm'>Payroll Services</li>
-                    <li className='py-1 text-sm'>Tax Services</li>
-                    <li className='py-1 text-sm'>Bookkeeping</li>
-                    <li className='py-1 text-sm'>Tax compliance certificate application</li>
-                    <li className='py-1 text-sm'>Financial Reporting and forecasting</li>
-                    <li className='py-1 text-sm'>NSSF, NHIF and  PAYE filing </li>
-                    <li className='py-1 text-sm'>Vat filing </li>
-                    <li className='py-1 text-sm'>Audit and accounting consultancy</li>
+                <ul >
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Payroll Services</li></a> 
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Bookkeeping</li></a> 
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Tax compliance certificate application</li></a> 
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Financial Reporting and forecasting</li></a> 
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>NSSF, NHIF and  PAYE filing</li></a> 
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Vat filing</li></a> 
+                    <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Audit and accounting consultancy</li></a> 
+
                 </ul>
             </div>
 
             <div>
                 <h2 className='text-[#e4c131] font-bold text-lg'>Quick Access</h2>
                 <ul>
-                    <li className='py-1 text-sm'>Home</li>
-                    <li className='py-1 text-sm'>Services</li>
-                    <li className='py-1 text-sm'>About</li>
-                    <li className='py-1 text-sm'>Contact</li>
+                <a href='/Homepage'><li className='py-1 text-sm hover:text-[#00df9a]'>Home</li></a> 
+                <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Services</li></a> 
+                <a href='/About'><li className='py-1 text-sm hover:text-[#00df9a]'>About</li></a> 
+                <a href='/Contact'><li className='py-1 text-sm hover:text-[#00df9a]'>Contact</li></a> 
+                    
                 </ul>
             </div>
             <div>
