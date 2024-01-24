@@ -13,8 +13,8 @@ function Homepage() {
     <div>
       <Navbar />
       <Loadpage />
-      <Newsletter />
       <Details />
+      <Newsletter />
       <ServiceSection />
       <Footer />
     </div>
