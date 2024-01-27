@@ -3,35 +3,7 @@ import './Load.css';
 import { Helmet } from 'react-helmet';
 
 function Loadpage() {
-
-  const [successResponce, setSuccessResponce] = useState("");
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_eio6ssx",
-        "template_dtckgzl",
-        form.current,
-        "GLJHLD4VjfTBI3MPl"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-    setSuccessResponce("Message sent successfully");
-    setTimeout(() => {
-      setSuccessResponce("");
-    }, 4000);
-  };
+  
   return (
     <div>
     <Helmet>
