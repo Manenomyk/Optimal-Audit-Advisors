@@ -34,7 +34,7 @@ function Services() {
                Navigating Excellence, Delivering Results:
                 Because Your Business Deserves the Best!
               </p>
-              <button className='bg-[#e4c131] w-[200px] rounded-md  my-6  p-2 text-black font-bold'>Explore More</button>
+              <a href='#services'><button className='bg-[#e4c131] w-[200px] rounded-md  my-6  p-2 text-black font-bold'>Explore More</button></a>
       </div>
       
     </div>
@@ -42,9 +42,11 @@ function Services() {
     </div>
 
       <div className='w-full p-[5rem] px-4 bg-white'>
+      <a id='services'></a>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         
         <div className='flex flex-col justify-center'>
+        
           <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Audit and accounting consultancy</h1>
           <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Search no further!</p>
                 <p>
