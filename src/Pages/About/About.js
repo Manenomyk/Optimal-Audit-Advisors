@@ -5,11 +5,22 @@ import './About.css';
 import logo from '../../Assets/logo.jpeg';
 import happy from '../../Assets/happy.svg';
 import services from '../../Assets/services.webp';
+import { Helmet } from 'react-helmet';
 
 function About() {
   return (
     <div>
     <Navbar />
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Optimal Audit Advissors</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Best Audit services"
+        />
+      </Helmet>
+      
       <div className="about_background w-full h-[20rem] bg-cover bg-center" >
       <h1 className='w-full text-3xl font-bold text-[#e4c131] text-end absolute bottom-80 pr-6 '>Nurturing Visions, Building Legacies</h1>
     </div>
