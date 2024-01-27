@@ -10,12 +10,27 @@ import reporting from '../../Assets/reporting.jpg';
 
 function Services() {
   return (
-    <div>
+  <div>
       <Navbar />
 
     <div className="background w-full h-[30rem] bg-cover bg-center" >
-      
+    <div className='w-full p-[2rem] px-4 bg-transparent'>
+    <div className='max-w-[1240px] mx-auto grid md:grid-cols-3'>
+      <div className='flex flex-col justify-self-center'>
+        <p className='md:text-3xl sm:text-xl text-lg text-[#e4c131] font-bold py-2'>What we offer</p>
+              <p className='sm:text-xl text-white'>
+              Where Expertise Meets Innovation:
+               Unleashing Tailored Solutions for Your Unique Needs
+               <br />
+               Navigating Excellence, Delivering Results:
+                Because Your Business Deserves the Best!
+              </p>
+              <button className='bg-[#e4c131] w-[200px] rounded-md  my-6  p-2 text-black font-bold'>Explore More</button>
       </div>
+      
+    </div>
+  </div>
+    </div>
 
       <div className='w-full p-[5rem] px-4 bg-white'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
