@@ -42,7 +42,7 @@ function Services() {
     </div>
 
       <div className='w-full p-[5rem] px-4 bg-white'>
-      <a id='services'></a>
+      <a id='services'/>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         
         <div className='flex flex-col justify-center'>
