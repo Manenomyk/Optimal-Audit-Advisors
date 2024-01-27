@@ -11,7 +11,7 @@ function About() {
     <div>
     <Navbar />
       <div className="about_background w-full h-[20rem] bg-cover bg-center" >
-
+      <h1 className='w-full text-3xl font-bold text-[#e4c131] text-end absolute bottom-80 pr-6 '>Nurturing Visions, Building Legacies</h1>
     </div>
         <div className='w-full p-[5rem] px-4 bg-white'>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
