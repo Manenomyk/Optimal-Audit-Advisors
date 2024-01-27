@@ -5,6 +5,7 @@ import './Services.css';
 import consult from '../../Assets/consult.avif';
 import report from '../../Assets/report.svg';
 import Tax from '../../Assets/tax.png';
+import filling from '../../Assets/filling.svg';
 
 function Services() {
   return (
@@ -63,7 +64,7 @@ function Services() {
       <hr className='text-white' />
 
 
-      <div className='w-full p-[5rem] px-4 bg-white'>
+    <div className='w-full p-[5rem] px-4 bg-white'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
       
       <div className='flex flex-col justify-center'>
@@ -84,7 +85,49 @@ function Services() {
       <hr className='text-white' />
 
     </div>
-    
+
+    <div className='w-full p-[2rem] px-4 bg-white'>
+        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+        <img className='w-[300px] mx-auto my-3' src={filling} alt='accounting images' />
+        <div className='flex flex-col justify-center'>
+          <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>NSSF, NHIF and PAYE filing</h1>
+          <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>You won't believe what we have for you</p>
+                <p>
+                Experience Seamless Payroll Solutions for Your Success!
+                 Elevate Your Business with Effortless NSSF,
+                  NHIF, and PAYE Filing. Navigate the Future
+                   of Payroll Management – Where Accuracy 
+                   Meets Efficiency
+                </p>
+                <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
+        </div>
+        
+        </div>
+      </div>
+
+      <hr className='text-white' />
+
+    <div className='w-full p-[5rem] px-4 bg-white'>
+      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+      
+      <div className='flex flex-col justify-center'>
+        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Tax compliance certificate application</h1>
+        <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>We Beat that hassle for you</p>
+              <p>
+              Unlock Business Confidence! Secure Your Success
+               with Our Hassle-Free Tax Compliance 
+               Certificate Application. We Simplify,
+                You Thrive - Let's Navigate the Path
+                 to Financial Compliance Together!"
+              </p>
+              <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
+      </div>
+      <img className='w-[500px] mx-auto my-3' src={Tax} alt='accounting images' />
+      </div>
+
+      <hr className='text-white' />
+
+    </div>
 
       <Footer />
     </div>
