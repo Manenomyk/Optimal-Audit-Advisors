@@ -111,14 +111,14 @@ function Services() {
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
       
       <div className='flex flex-col justify-center'>
-        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Tax compliance certificate application</h1>
+        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Reporting</h1>
         <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>We Beat that hassle for you</p>
               <p>
-              Unlock Business Confidence! Secure Your Success
-               with Our Hassle-Free Tax Compliance 
-               Certificate Application. We Simplify,
-                You Thrive - Let's Navigate the Path
-                 to Financial Compliance Together!"
+              Beyond the Numbers: Unleash the Power of Precision
+               with Our Audit Reporting Services! Your
+                Financial Guardians for Trustworthy Insights 
+                and Compliance Excellence. Elevate Your Business 
+                Story – Let's Audit Success Together!
               </p>
               <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
       </div>
