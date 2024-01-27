@@ -15,20 +15,21 @@ function About() {
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
           <img className='w-[300px] mx-auto my-3' src={logo} alt='accounting images' />
             <div className='flex flex-col justify-center'>
-              <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Audit and accounting consultancy</h1>
-              <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Search no further!</p>
+            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
+              <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Get to know us better!</p>
                     <p>
-                    We are your trusted partner in audit and accounting
-                    consultancy. We understand that in today's
-                      dynamic business environment, effective
-                      financial management is crucial for success. 
-                      Our dedicated team of experts is here to 
-                      guide you through the complexities of 
-                      auditing and accounting, helping you achieve
-                        financial transparency, compliance, and 
-                        strategic growth
+                    Welcome to Optimal Audit Advissors, where numbers tell a 
+                    story, and excellence is our language. We are not 
+                    just auditors and consultants; we are architects of 
+                    financial success. With a commitment to precision,
+                     innovation, and client-centric solutions, we transform 
+                     challenges into opportunities. At Optimal Audit Advissors,
+                      we don't just balance the books; we balance your 
+                      journey towards prosperity. Explore the art of 
+                      financial mastery with us – because your success 
+                      is our business!
                     </p>
-                    <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
+                    
             </div>
             
             </div>
