@@ -6,6 +6,7 @@ import consult from '../../Assets/consult.avif';
 import report from '../../Assets/report.svg';
 import Tax from '../../Assets/tax.png';
 import filling from '../../Assets/filling.svg';
+import reporting from '../../Assets/reporting.jpg';
 
 function Services() {
   return (
@@ -87,7 +88,7 @@ function Services() {
     </div>
 
     <div className='w-full p-[2rem] px-4 bg-white'>
-        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <img className='w-[300px] mx-auto my-3' src={filling} alt='accounting images' />
         <div className='flex flex-col justify-center'>
           <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>NSSF, NHIF and PAYE filing</h1>
@@ -102,8 +103,8 @@ function Services() {
                 <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
         </div>
         
-        </div>
       </div>
+    </div>
 
       <hr className='text-white' />
 
@@ -111,21 +112,22 @@ function Services() {
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
       
       <div className='flex flex-col justify-center'>
-        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Reporting</h1>
-        <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>We Beat that hassle for you</p>
+        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Audit and Financial Reporting</h1>
+        <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Precision Beyond Numbers, Insights Beyond Reports</p>
               <p>
               Beyond the Numbers: Unleash the Power of Precision
                with Our Audit Reporting Services! Your
                 Financial Guardians for Trustworthy Insights 
                 and Compliance Excellence. Elevate Your Business 
                 Story – Let's Audit Success Together!
+                <br />
+                <b>#Audit Excellence</b> <br />
+                <b>#Financial Confidence!</b>
               </p>
               <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
       </div>
-      <img className='w-[500px] mx-auto my-3' src={Tax} alt='accounting images' />
+      <img className='w-[500px] mx-auto my-3' src={reporting} alt='accounting images' />
       </div>
-
-      <hr className='text-white' />
 
     </div>
 
