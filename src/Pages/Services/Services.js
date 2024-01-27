@@ -7,12 +7,21 @@ import report from '../../Assets/report.svg';
 import Tax from '../../Assets/tax.png';
 import filling from '../../Assets/filling.svg';
 import reporting from '../../Assets/reporting.jpg';
+import { Helmet } from 'react-helmet';
 
 function Services() {
   return (
   <div>
       <Navbar />
-
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Optimal Audit Advissors</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+      <meta
+        name="description"
+        content="Best Audit services"
+      />
+    </Helmet>
     <div className="background w-full h-[30rem] bg-cover bg-center" >
     <div className='w-full p-[2rem] px-4 bg-transparent'>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3'>
