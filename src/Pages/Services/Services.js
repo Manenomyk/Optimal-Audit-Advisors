@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar';
 import './Services.css';
+import consult from '../../Assets/consult.avif';
 
 function Services() {
   return (
@@ -30,6 +31,7 @@ function Services() {
                 </p>
                 <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
         </div>
+        <img className='w-[500px] mx-auto my-3' src={consult} alt='accounting images' />
         </div>
       </div>
     </div>
