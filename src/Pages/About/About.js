@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar';
 import Footer from '../../Components/Footer';
 import './About.css';
 import logo from '../../Assets/logo.jpeg';
+import happy from '../../Assets/happy.svg';
 
 function About() {
   return (
@@ -33,6 +34,32 @@ function About() {
             </div>
             
             </div>
+        </div>
+
+        <div className='flex flex-row mx-auto justify-center'>
+          <div className='my-12 p-6 h-auto w-1/2 md:flex gap-6 bg-slate-100 rounded-lg text-xl'>
+            
+            <div>
+              <img src={happy} alt='image' className='mx-auto w-96' />
+            </div>
+            <div>
+                  <h1 className='py-5 font-bold text-[#00df9a]'>What we pride in
+                  <hr  className='w-40 mt-1'/>
+                  </h1>
+
+                <div className='text-lg'>
+                  <p>
+                      Beyond Audits, We Illuminate Paths 
+                      to Prosperity: Precision, Insight, 
+                      and Integrity - Your Trusted Partners
+                      in Audit Advisory Excellence!
+                  </p>
+                </div>
+            </div>
+
+            
+        </div>
+
         </div>
     <Footer />
     </div>
