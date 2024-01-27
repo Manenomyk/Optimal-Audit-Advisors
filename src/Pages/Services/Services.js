@@ -16,12 +16,12 @@ function Services() {
     <div className="background w-full h-[30rem] bg-cover bg-center" >
     <div className='w-full p-[2rem] px-4 bg-transparent'>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3'>
-      <div className='flex flex-col justify-self-center'>
-        <p className='md:text-3xl sm:text-xl text-lg text-[#e4c131] font-bold py-2'>What we offer</p>
+      <div className='flex flex-col justify-self-center relative top-52'>
+        <p className='md:text-3xl sm:text-xl text-lg text-[#e4c131] font-bold py-2'> Expertise Meets Innovation:</p>
               <p className='sm:text-xl text-white'>
-              Where Expertise Meets Innovation:
+              
                Unleashing Tailored Solutions for Your Unique Needs
-               <br />
+               
                Navigating Excellence, Delivering Results:
                 Because Your Business Deserves the Best!
               </p>
