@@ -48,7 +48,7 @@ function About() {
                   <hr  className='w-40 mt-1'/>
                   </h1>
 
-                <div className='text-lg'>
+                <div className='text-[16px] text-gray-600'>
                   <p>
                       Beyond Audits, We Illuminate Paths 
                       to Prosperity: Precision, Insight, 
