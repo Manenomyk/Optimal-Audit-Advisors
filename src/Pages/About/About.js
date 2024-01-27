@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer';
 import './About.css';
 import logo from '../../Assets/logo.jpeg';
 import happy from '../../Assets/happy.svg';
+import services from '../../Assets/services.webp';
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
           <img className='w-[300px] mx-auto my-3' src={logo} alt='accounting images' />
             <div className='flex flex-col justify-center'>
             <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
-              <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Get to know us better!</p>
+              <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Welcome to a New Standard of Excellence!</p>
                     <p>
                     Welcome to Optimal Audit Advissors, where numbers tell a 
                     story, and excellence is our language. We are not 
@@ -61,25 +62,26 @@ function About() {
       
       <div className='w-full p-[5rem] px-4 bg-white'>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-          <img className='w-[300px] mx-auto my-3' src={logo} alt='accounting images' />
+          
             <div className='flex flex-col justify-center'>
-            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit Advissors</h1>
-              <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Get to know us better!</p>
+            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Elevate Your Experience</h1>
+              <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Your Success, Our Commitment </p>
                     <p>
-                    Welcome to Optimal Audit Advissors, where numbers tell a 
-                    story, and excellence is our language. We are not 
-                    just auditors and consultants; we are architects of 
-                    financial success. With a commitment to precision,
-                     innovation, and client-centric solutions, we transform 
-                     challenges into opportunities. At Optimal Audit Advissors,
-                      we don't just balance the books; we balance your 
-                      journey towards prosperity. Explore the art of 
-                      financial mastery with us – because your success 
-                      is our business!
+                    Numbers in Harmony, Trust in Every Transaction.
+                     Welcome to Optimal Audit Advissors – 
+                    Your Partner in Precision Accounting and Auditing Solutions.
+                    <br /><br />
+                    As an Audit and accounting company we offer a range of services to help
+                     businesses and organizations manage their financial affairs,
+                      ensure compliance with regulations, and make informed 
+                      decisions. Here are some common services provided by
+                       audit and accounting firms:
                     </p>
+
+                    <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Read More</button>
                     
             </div>
-            
+            <img className='w-[400px] mx-auto my-3' src={services} alt='accounting images' />
             </div>
         </div>
     <Footer />
