@@ -15,7 +15,6 @@ function Navbar() {
         <ul className='hidden md:flex'>
 
             <a href='/'><li className='p-4'>Home</li></a>
-            <a href='/Company'><li className='p-4'>Company</li></a>
             <a href='/About'><li className='p-4'>About</li></a>
             <a href='/Services'><li className='p-4'>Servises</li></a>
             <a href='/Contact'><li className='p-4'>Contact</li></a>
@@ -29,7 +28,6 @@ function Navbar() {
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit</h1>
             <ul className='p-4'>
                 <a href='/'><li className='p-4 border-b border-gray-600'>Home</li></a>
-                <a href='/Company'><li className='p-4 border-b border-gray-600'>Company</li></a>
                 <a href='/About'><li className='p-4 border-b border-gray-600'>About</li></a>
                 <a href='/Services'><li className='p-4 border-b border-gray-600'>Servises</li></a>
                 <a href='/Contact'><li className='p-4 border-b border-gray-600'>Contact</li></a>
