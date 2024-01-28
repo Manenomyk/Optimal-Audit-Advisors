@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import logo from "../Assets/logo.jpeg";
 import * as rev from 'react-reveal';
 
 function Footer() {
+const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_eio6ssx', 'template_uvekgoa', form.current, 'GLJHLD4VjfTBI3MPl')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div className='max-w-[1240px] mx-auto py-10 grid md:grid-cols-3 gap-8 text-gray-300'>
         <div>
@@ -18,8 +31,18 @@ function Footer() {
              Your Success, Our Assurance Optimal Audit Advisors at Your Service!
             </rev.Zoom>
              </p>
-            
+            <form ref={form} onSubmit={sendEmail} className='mt-9'>
+                <input placeholder='Email adress' type='email' name="user_email" required className='px-2 py-1 rounded-lg text-black mb-2 w-[360px] '/>
+                <textarea placeholder='Your Message' name="message" required rows={4} className='text-black w-[360px] rounded-lg px-2 py-1 mb-3' />
+                <input type="submit" value="Send Message" className='bg-[#e4c131] w-[180px] rounded-md  my-3  p-2 text-black font-bold focus:ring-1' />
+             </form>
+        
         </div>
+
+
+
+
+
         <div className='mx-2 md:col-span-2 flex justify-between'>
             <div>
             <rev.Zoom delay={200}>
