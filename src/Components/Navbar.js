@@ -1,8 +1,14 @@
 import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import logo from "../Assets/logo.jpeg";
+import * as modal from 'react-bootstrap';
 
 function Navbar() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     const [nav, setNav] = useState(false);
 
     const handleNav = () =>{
@@ -24,7 +30,7 @@ function Navbar() {
             {nav ? <AiOutlineClose size={20}/> :<AiOutlineMenu size={20} /> }
             
         </div>
-        <div className={nav ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-700' : 'fixed left-[-100%]'}>
+        <div className={nav ? 'fixed left-0 top-0 w-[40%] z-10 h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-700' : 'fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Optimal Audit</h1>
             <ul className='p-4'>
                 <a href='/'><li className='p-4 border-b border-gray-600'>Home</li></a>

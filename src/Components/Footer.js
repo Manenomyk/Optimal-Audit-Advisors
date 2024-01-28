@@ -56,7 +56,7 @@ function Footer() {
             </rev.Zoom>
                 <ul>
                 <rev.Zoom delay={300}>
-                <a href='/Homepage'><li className='py-1 text-sm hover:text-[#00df9a]'>Home</li></a> 
+                <a href='/'><li className='py-1 text-sm hover:text-[#00df9a]'>Home</li></a> 
                 </rev.Zoom>
                 <rev.Zoom delay={400}>
                 <a href='/Services'><li className='py-1 text-sm hover:text-[#00df9a]'>Services</li></a> 
