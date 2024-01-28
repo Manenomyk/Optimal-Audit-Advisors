@@ -1,13 +1,9 @@
 import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import logo from "../Assets/logo.jpeg";
-import * as modal from 'react-bootstrap';
+
 
 function Navbar() {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
 
     const [nav, setNav] = useState(false);
 
@@ -38,6 +34,7 @@ function Navbar() {
                 <a href='/Services'><li className='p-4 border-b border-gray-600'>Servises</li></a>
                 <a href='/Contact'><li className='p-4 border-b border-gray-600'>Contact</li></a>
 
+    
             </ul>
         </div>
     </div>
