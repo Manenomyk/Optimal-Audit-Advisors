@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Load.css';
 import { Helmet } from 'react-helmet';
 import * as rev from 'react-reveal';
-import * as pop from 'react-bootstrap';
 
 function Loadpage() {
 
@@ -40,44 +39,6 @@ function Loadpage() {
             <rev.Zoom delay={700}>
             <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto p-2 text-black font-bold'>Reach out</button>
             </rev.Zoom>
-
-            <pop.Button variant="primary" onClick={handleShow}>
-            Launch
-        </pop.Button>
-
-            <pop.Modal show={show} onHide={handleClose}>
-        <pop.Modal.Header closeButton>
-          <pop.Modal.Title>Modal heading</pop.Modal.Title>
-        </pop.Modal.Header>
-        <pop.Modal.Body>
-          <pop.Form>
-            <pop.Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <pop.Form.Label>Email address</pop.Form.Label>
-              <pop.Form.Control
-                type="email"
-                placeholder="name@example.com"
-                autoFocus
-              />
-            </pop.Form.Group>
-            <pop.Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <pop.Form.Label>Example textarea</pop.Form.Label>
-              <pop.Form.Control as="textarea" rows={3} />
-            </pop.Form.Group>
-          </pop.Form>
-        </pop.Modal.Body>
-        <pop.Modal.Footer>
-          <pop.Button variant="secondary" onClick={handleClose}>
-            Close
-          </pop.Button>
-          <pop.Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </pop.Button>
-        </pop.Modal.Footer>
-      </pop.Modal>
-
 
           </div>
     </div>

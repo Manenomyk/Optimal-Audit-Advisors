@@ -2,8 +2,11 @@ import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import logo from "../Assets/logo.jpeg";
 
-
 function Navbar() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     const [nav, setNav] = useState(false);
 
