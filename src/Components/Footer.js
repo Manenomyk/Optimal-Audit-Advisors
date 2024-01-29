@@ -1,9 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import logo from "../Assets/logo.jpeg";
 import * as rev from 'react-reveal';
 
 function Footer() {
+
+const [successResponce, setSuccessResponce] = useState("");
 const form = useRef();
 
   const sendEmail = (e) => {
@@ -15,10 +17,44 @@ const form = useRef();
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
+    setSuccessResponce("Message sent successfully");
+    setTimeout(() => {
+      setSuccessResponce("");
+    }, 4000);
   };
   return (
     <div className='max-w-[1240px] mx-auto py-10 grid md:grid-cols-3 gap-8 text-gray-300'>
-        <div>
+    <div
+    style={{
+      marginLeft: "70%",
+      marginTop: "18%",
+      position: "fixed",
+      zIndex: "2",
+    }}
+  >
+    {successResponce && (
+      <div
+        style={{
+          color: "white",
+          fontSize: "16px",
+          width: "120%",
+          background: "#28a745",
+          borderRadius: "15px",
+          paddingTop: "15px",
+          paddingBottom: "15px",
+          paddingLeft: "6%",
+          border: "1px solid lightgray",
+          opacity: "0.8",
+          transition: "0.5",
+        }}
+      >
+        {successResponce}
+      </div>
+    )}
+  </div> 
+    
+    <div>
         <a id='Contact'></a>
             <div className='flex'>
                 <img src={logo} alt='/'  className='w-20 rounded-full mx-2'/>
