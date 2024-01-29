@@ -37,7 +37,7 @@ function Loadpage() {
             <p className='text-gray-300 p-4 font-bold'>We are you one stop place for all your audit and accounting needs</p>
             </rev.Zoom>
             <rev.Zoom delay={700}>
-            <button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto p-2 text-black font-bold'>Reach out</button>
+            <a href='#Contact'><button className='bg-[#e4c131] w-[200px] rounded-md  my-6 mx-auto p-2 text-black font-bold'>Reach out</button></a>
             </rev.Zoom>
 
           </div>
