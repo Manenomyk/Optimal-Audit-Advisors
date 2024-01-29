@@ -9,7 +9,7 @@ const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_eio6ssx', 'template_uvekgoa', form.current, 'GLJHLD4VjfTBI3MPl')
+    emailjs.sendForm('service_wtcq0xt', 'template_uvekgoa', form.current, 'GLJHLD4VjfTBI3MPl')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
