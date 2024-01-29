@@ -95,7 +95,7 @@ const form = useRef();
                 <a href='/About'><li className='py-1 text-sm hover:text-[#00df9a]'>About</li></a> 
                 </rev.Zoom>
                 <rev.Zoom delay={600}>
-                <a href='/Contact'><li className='py-1 text-sm hover:text-[#00df9a]'>Contact</li></a> 
+                <a href='#Contact'><li className='py-1 text-sm hover:text-[#00df9a]'>Contact</li></a> 
                 </rev.Zoom>  
                 </ul>
             </div>
