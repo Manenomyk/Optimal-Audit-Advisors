@@ -16,6 +16,7 @@ function Newsletter() {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   return (
