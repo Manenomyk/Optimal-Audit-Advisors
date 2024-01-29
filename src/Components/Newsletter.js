@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 import * as rev from 'react-reveal';
 
 function Newsletter() {
+    
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wtcq0xt', 'template_uvekgoa', form.current, 'GLJHLD4VjfTBI3MPl')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div className='w-full py-6 text-white px-4'>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
@@ -16,17 +32,19 @@ function Newsletter() {
             </rev.Zoom>
             </div>
             <div className='my-4'>
-                <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
+            <form ref={form} onSubmit={sendEmail} className='flex flex-col sm:flex-row items-center justify-between w-full'>
                 <rev.Zoom delay={300}> 
                 <input className='p-2 flex w-full rounded-md text-black' 
                         type='email'
                         placeholder='Enter Email' 
+                        required
+                        name='user_email'
                     />
                 </rev.Zoom>
                 <rev.Zoom delay={400}>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Subscribe</button>
+                    <button type="submit" className='bg-[#00df9a] w-[200px] rounded-md  my-6 mx-auto md:mx-0 p-2 text-black font-bold'>Subscribe</button>
                 </rev.Zoom>
-                    </div>
+            </form>
                     <rev.Zoom delay={400}>
                     <p>Welcome into the team</p>
                     </rev.Zoom>
