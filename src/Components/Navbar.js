@@ -22,7 +22,7 @@ function Navbar() {
             <a href='/'><li className='p-4'>Home</li></a>
             <a href='/About'><li className='p-4'>About</li></a>
             <a href='/Services'><li className='p-4'>Servises</li></a>
-            <a href='/Contact'><li className='p-4'>Contact</li></a>
+            <a href='#Contact'><li className='p-4'>Contact</li></a>
 
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
@@ -35,7 +35,7 @@ function Navbar() {
                 <a href='/'><li className='p-4 border-b border-gray-600'>Home</li></a>
                 <a href='/About'><li className='p-4 border-b border-gray-600'>About</li></a>
                 <a href='/Services'><li className='p-4 border-b border-gray-600'>Servises</li></a>
-                <a href='/Contact'><li className='p-4 border-b border-gray-600'>Contact</li></a>
+                <a href='#Contact'><li className='p-4 border-b border-gray-600'>Contact</li></a>
 
     
             </ul>

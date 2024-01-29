@@ -19,6 +19,7 @@ const form = useRef();
   return (
     <div className='max-w-[1240px] mx-auto py-10 grid md:grid-cols-3 gap-8 text-gray-300'>
         <div>
+        <a id='Contact'></a>
             <div className='flex'>
                 <img src={logo} alt='/'  className='w-20 rounded-full mx-2'/>
                 <rev.Zoom delay={200}>
