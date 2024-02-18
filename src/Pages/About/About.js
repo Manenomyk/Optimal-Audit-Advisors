@@ -14,7 +14,7 @@ function About() {
     <Navbar />
     <Helmet>
         <meta charSet="utf-8" />
-        <title>Optimal Audit Advissors</title>
+        <title>Optimal Audit Advisors</title>
         <link rel="canonical" href="http://mysite.com/example" />
         <meta
           name="description"

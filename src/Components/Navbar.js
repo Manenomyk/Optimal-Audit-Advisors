@@ -34,7 +34,7 @@ function Navbar() {
             <ul className='p-4'>
                 <a href='/'><li className='p-4 border-b border-gray-600'>Home</li></a>
                 <a href='/About'><li className='p-4 border-b border-gray-600'>About</li></a>
-                <a href='/Services'><li className='p-4 border-b border-gray-600'>Servises</li></a>
+                <a href='/Services'><li className='p-4 border-b border-gray-600'>Services</li></a>
                 <a href='#Contact'><li className='p-4 border-b border-gray-600'>Contact</li></a>
 
     
