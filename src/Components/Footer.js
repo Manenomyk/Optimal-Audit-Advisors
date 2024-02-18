@@ -68,7 +68,7 @@ function Footer() {
           <img src={logo} alt="/" className="w-20 rounded-full mx-2" />
           <rev.Zoom delay={200}>
             <h1 className="w-full text-3xl font-bold text-[#00df9a]">
-              Optimal Audit Advissors
+              Optimal Audit Advisors
             </h1>
           </rev.Zoom>
         </div>
@@ -110,7 +110,7 @@ function Footer() {
       <div className="mx-2 md:col-span-2 flex justify-between">
         <div>
           <rev.Zoom delay={200}>
-            <h2 className="text-[#e4c131] font-bold text-lg">Servises</h2>
+            <h2 className="text-[#e4c131] font-bold text-lg">Services</h2>
           </rev.Zoom>
           <ul>
             <rev.Zoom delay={200}>
@@ -194,7 +194,7 @@ function Footer() {
         </div>
         <div>
           <rev.Zoom delay={200}>
-            <h2 className="text-[#e4c131] font-bold text-lg">Company</h2>
+            <h2 className="text-[#e4c131] font-bold text-lg">Contacts</h2>
           </rev.Zoom>
           <ul>
             <rev.Zoom delay={300}>
@@ -202,6 +202,9 @@ function Footer() {
             </rev.Zoom>
             <rev.Zoom delay={400}>
               <li className="py-1 text-sm">+254734565289</li>
+            </rev.Zoom>
+            <rev.Zoom delay={500}>
+              <li className="py-1 text-sm">optimalauditadvisors@gmail.com</li>
             </rev.Zoom>
             <rev.Zoom delay={500}>
               <li className="py-1 text-sm">Upperhill, Nairobi.</li>
