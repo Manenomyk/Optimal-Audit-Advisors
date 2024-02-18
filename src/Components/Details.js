@@ -19,13 +19,13 @@ function Details() {
                 <p>
                 <rev.Zoom delay={800}>
                 We turn your financial
-                 chaos into organized success! 🌐💰 Let us be your
+                 chaos into organized success! Let us be your
                   financial compass, guiding you through the numbers
-                   with precision and expertise. 🚀 From meticulous 
+                   with precision and expertise. From meticulous 
                    bookkeeping to strategic financial planning, we're 
                    here to simplify the complexities and empower your
-                    financial journey. 📈💼 Your success is our bottom
-                     line! 💼✨ 
+                    financial journey. Your success is our bottom
+                     line!
                      #FinancialFreedom 
                      #NumbersNinja 
                      #AccountingExcellence"

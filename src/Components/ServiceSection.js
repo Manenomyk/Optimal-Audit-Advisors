@@ -20,11 +20,11 @@ function ServiceSection() {
                 <p className='text-center'>
                 <rev.Zoom delay={400}>
                     Elevate Your Finances with Our Expert Financial
-                    Accounting Services! 💼📈 Unleash the Potential
+                    Accounting Services! Unleash the Potential
                     of Your Numbers, Gain Clarity, and Chart a Course 
                     to Financial Success. Let Us Be Your Partner in
                     Precision, Where Every Dollar Finds Its Purpose.
-                        Your Financial Future Starts Here! 💰✨
+                        Your Financial Future Starts Here!
                 </rev.Zoom>
                 </p>
                 <rev.Zoom delay={400}>
