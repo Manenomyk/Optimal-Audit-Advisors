@@ -123,42 +123,63 @@ function Footer() {
             <rev.Zoom delay={300}>
               <a href="/Services">
                 <li className="py-1 text-sm hover:text-[#00df9a]">
-                  Bookkeeping
+                  Accounting & Bookkeeping
                 </li>
               </a>
             </rev.Zoom>
             <rev.Zoom delay={300}>
               <a href="/Services">
                 <li className="py-1 text-sm hover:text-[#00df9a]">
-                  Tax compliance certificate application
+                  Taxation & Tax compliance
                 </li>
               </a>
             </rev.Zoom>
             <rev.Zoom delay={400}>
               <a href="/Services">
                 <li className="py-1 text-sm hover:text-[#00df9a]">
-                  Financial Reporting and forecasting
+                  Business advisory services
                 </li>
               </a>
             </rev.Zoom>
             <rev.Zoom delay={400}>
               <a href="/Services">
                 <li className="py-1 text-sm hover:text-[#00df9a]">
-                  NSSF, NHIF and PAYE filing
+                  Kenya Diaspora tax services
                 </li>
               </a>
             </rev.Zoom>
             <rev.Zoom delay={500}>
               <a href="/Services">
                 <li className="py-1 text-sm hover:text-[#00df9a]">
-                  Vat filing
+                  Vat filing Services
                 </li>
               </a>
             </rev.Zoom>
             <rev.Zoom delay={500}>
               <a href="/Services">
                 <li className="py-1 text-sm hover:text-[#00df9a]">
-                  Audit and accounting consultancy
+                  Auditing and assurance
+                </li>
+              </a>
+            </rev.Zoom>
+            <rev.Zoom delay={500}>
+              <a href="/Services">
+                <li className="py-1 text-sm hover:text-[#00df9a]">
+                  Monthly Rental Income tax
+                </li>
+              </a>
+            </rev.Zoom>
+            <rev.Zoom delay={500}>
+              <a href="/Services">
+                <li className="py-1 text-sm hover:text-[#00df9a]">
+                  Business Immigration Services
+                </li>
+              </a>
+            </rev.Zoom>
+            <rev.Zoom delay={500}>
+              <a href="/Services">
+                <li className="py-1 text-sm hover:text-[#00df9a]">
+                  Transfer Pricing
                 </li>
               </a>
             </rev.Zoom>
