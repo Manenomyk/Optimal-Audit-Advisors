@@ -54,7 +54,7 @@ function Services() {
         
         <div className='flex flex-col justify-center'>
         <rev.Zoom delay={200}>
-            <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Audit and accounting consultancy</h1>
+            <h1 className='text-[#00df9a] uppercase font-bold text-center md:text-3xl mt-3'>Audit and accounting consultancy</h1>
           </rev.Zoom>
           <rev.Zoom delay={300}>
             <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Search no further!</p>
@@ -90,7 +90,7 @@ function Services() {
         </rev.Zoom>
         <div className='flex flex-col justify-center'>
         <rev.Zoom delay={200}>
-          <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Financial reporting and forecasting</h1>
+          <h1 className='text-[#00df9a] uppercase font-bold md:text-3xl text-center mt-3'>Financial reporting and forecasting</h1>
           </rev.Zoom>
           <rev.Zoom delay={300}>
           <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>We've got you covered!</p>
@@ -122,7 +122,7 @@ function Services() {
       
       <div className='flex flex-col justify-center'>
       <rev.Zoom delay={200}>
-        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Tax compliance certificate application</h1>
+        <h1 className='text-[#00df9a] uppercase font-bold text-center md:text-3xl mt-3'>Tax compliance certificate application</h1>
         </rev.Zoom>
         <rev.Zoom delay={300}>
         <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>We Beat that hassle for you</p>
@@ -156,7 +156,7 @@ function Services() {
       </rev.Zoom>  
       <div className='flex flex-col justify-center'>
       <rev.Zoom delay={200}>
-          <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>NSSF, NHIF and PAYE filing</h1>
+          <h1 className='text-[#00df9a] uppercase font-bold text-center md:text-3xl mt-3'>NSSF, NHIF and PAYE filing</h1>
           </rev.Zoom>
           <rev.Zoom delay={300}>
           <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>You won't believe what we have for you</p>
@@ -185,7 +185,7 @@ function Services() {
       
       <div className='flex flex-col justify-center'>
       <rev.Zoom delay={200}>
-        <h1 className='text-[#00df9a] uppercase font-bold text-center mt-3'>Audit and Financial Reporting</h1>
+        <h1 className='text-[#00df9a] uppercase font-bold text-center md:text-3xl mt-3'>Audit and Financial Reporting</h1>
         </rev.Zoom>
         <rev.Zoom delay={300}>
         <p className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Precision Beyond Numbers, Insights Beyond Reports</p>

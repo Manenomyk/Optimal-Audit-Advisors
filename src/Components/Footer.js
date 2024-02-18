@@ -65,7 +65,7 @@ function Footer() {
       <div>
         <a id="Contact"></a>
         <div className="flex">
-          <img src={logo} alt="/" className="w-20 rounded-full mx-2" />
+          <a href="/"><img src={logo} alt="/" className="w-20 rounded-full mx-2" /></a>
           <rev.Zoom delay={200}>
             <h1 className="w-full text-3xl font-bold text-[#00df9a]">
               Optimal Audit Advisors
